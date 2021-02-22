@@ -1,0 +1,154 @@
+body{
+    background-color: lightgray;
+    padding: 20px 20px;
+}
+
+.float{
+    display: flex;
+  
+}
+.img{
+    flex: 1;
+}
+.p{
+    flex: 2;
+    padding: 60px;
+}
+#back-btn{
+    background-color: darkgray;
+    top: 0px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: orange;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-size: 50px;
+}
+
+
+.flex{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+}
+.box-1{
+    background-color: white;
+    flex: 3;
+}
+.box-2{
+    background-color: red;
+    flex: 1;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.box-3{
+    background-color: red;
+    flex: 1;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.box-4{
+    background-color: red;
+    flex: 1;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.box-5{
+    background-color: red;
+    flex: 1;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+/*product list page*/
+.container{
+    background-color: lightyellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    grid-gap: 1em;
+    height: 100vh;
+    margin: 40px 40px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+button{
+    background-color: rgb(252, 184, 158);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 7px;
+  
+    
+}  
+.product-btn{
+    width: 160px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+h1{
+    text-indent: 3em;
+    font-size: 4em;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 10px lightgray;
+}
+.one{
+    background-color: steelblue;
+    border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+
+}
+.two{
+   background-color: brown; 
+   border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+}
+.three{
+   background-color: blue; 
+   border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+}
+.four{
+    background-color: darkgray;
+    border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+}
+.five{
+    background-color: brown;
+    border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+}
+.six{
+    background-color: brown; 
+    border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+}
+.seven{
+    background-color: brown; 
+    border-radius: 20px;
+    height: 20vh;
+    width: 160px; 
+}
+.eight{
+    background-color: brown;
+    border-radius: 20px;
+    height: 20vh;
+    width: 160px;
+}
+
