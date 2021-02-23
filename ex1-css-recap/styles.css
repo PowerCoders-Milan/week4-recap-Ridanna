@@ -1,71 +1,23 @@
 body{
-    background-color: lightgray;
+    background-color: white;
     padding: 20px 20px;
 }
-
-.float{
-    display: flex;
-  
+.banner{
+    background-color: lightgray;
+    opacity: 1;
+    height: 600px;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
 }
-.img{
-    flex: 1;
-}
-.p{
-    flex: 2;
-    padding: 60px;
-}
-#back-btn{
-    background-color: darkgray;
-    top: 0px;
-    border-radius: 5px;
-}
-.btn{
-    background-color: orange;
-    opacity: 0.6;
-    border-radius: 8px;
-    font-size: 50px;
+p{
+    font-size: 24px;
+    font-family: sans-serif;
 }
 
-
-.flex{
-    display: flex;
-    height: 15vh;
-    justify-content: space-around;
-}
-.box-1{
-    background-color: white;
-    flex: 3;
-}
-.box-2{
-    background-color: red;
-    flex: 1;
-    border-radius: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.box-3{
-    background-color: red;
-    flex: 1;
-    border-radius: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
-    
-}
-.box-4{
-    background-color: red;
-    flex: 1;
-    border-radius: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.box-5{
-    background-color: red;
-    flex: 1;
-    border-radius: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
-    
-}
 
 /*product list page*/
 .container{
@@ -97,7 +49,7 @@ button{
 
 }
 h1{
-    text-indent: 3em;
+    text-indent: 1em;
     font-size: 4em;
     font-family: sans-serif;
     text-shadow: 1px 1px 10px lightgray;
@@ -150,5 +102,96 @@ h1{
     border-radius: 20px;
     height: 20vh;
     width: 160px;
+}
+#btn-1{
+    background-color: rgb(250, 162, 0);
+    opacity: 0.5;
+    color: white;
+    font-size: small;
+    margin: 35px;
+    
+}
+.float{
+    margin: 0em 5em;
+
+}
+.float img{
+    float: left;
+    
+
+}
+.float h1{
+    margin-left: 0px;
+    text-indent: 1em;
+
+}
+.float p{
+    font-size: 30px;
+    text-align: justify;
+    padding: 0px 32px;
+    margin-left: 17em;
+
+
+}
+#back-btn{
+    background-color: darkgray;
+    top: 0px;
+    border-radius: 5px;
+    margin-left: 35em;
+    top: -2em;
+    position: relative;
+}
+.btn{
+    background-color: orange;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-size: 50px;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+.flex{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+}
+.box-1{
+    background-color: white;
+    flex: 3;
+    text-align: center;
+    margin: 15px;
+    position: relative;
+}
+.box-2{
+    background-color: red;
+    flex: 1;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.box-3{
+    background-color: red;
+    flex: 1;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.box-4{
+    background-color: red;
+    flex: 1;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.box-5{
+    background-color: red;
+    flex: 1;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
 }
 
